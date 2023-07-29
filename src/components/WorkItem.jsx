@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function WorkItem({ title, imgUrl, tech }) {
+export default function WorkItem({ title, imgUrl, tech, workUrl }) {
   return (
-    <div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
+    <a
+      href={workUrl}
+      target="_blank"
+      className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden"
+    >
       <img
         src={imgUrl}
         alt={title}
@@ -23,6 +27,6 @@ export default function WorkItem({ title, imgUrl, tech }) {
           ))}
         </p>
       </div>
-    </div>
+    </a>
   );
 }

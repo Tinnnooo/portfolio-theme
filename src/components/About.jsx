@@ -13,8 +13,8 @@ export default function About() {
           laboriosam saepe sapiente!
         </p>
         <a
-          href="railto:tinnofabregas01@gmail.com"
-          className="block mt-3 text-md md:text-lg font-regular text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500"
+          href="mailto:tinnofabregas01@gmail.com"
+          className="block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500"
         >
           tinnofabregas01@gmail.com
         </a>

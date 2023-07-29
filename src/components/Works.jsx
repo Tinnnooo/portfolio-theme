@@ -14,6 +14,7 @@ export default function Works() {
             title={work.title}
             imgUrl={work.imgUrl}
             tech={work.tech}
+            workUrl={work.workUrl}
           ></WorkItem>
         ))}
       </div>
